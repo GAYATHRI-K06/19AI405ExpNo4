@@ -199,12 +199,9 @@ J 0 <br>
 Path found: ['A', 'F', 'G', 'I', 'J']
 
 
-<hr>
-<h2>Sample Graph II</h2>
-<hr>
+
+## SAMPLE GRAPH II:
 ![image](https://github.com/22008686/19AI405ExpNo4/assets/118916413/f4e348fe-235e-4b57-8d62-024f97003ba6)
-
-
 
 <hr>
 <h2>Sample Input</h2>
