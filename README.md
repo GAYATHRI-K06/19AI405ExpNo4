@@ -169,6 +169,7 @@ aStarAlgo('S', 'G')
 <hr>
 <h2>Sample Input</h2>
 <hr>
+
 10 14 <br>
 A B 6 <br>
 A F 3 <br>
@@ -194,6 +195,8 @@ G 5 <br>
 H 3 <br>
 I 1 <br>
 J 0 <br>
+
+
 <hr>
 <h2>Sample Output</h2>
 <hr>
@@ -204,6 +207,7 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 <hr>
 <h2>Sample Input</h2>
 <hr>
+
 6 6 <br>
 A B 2 <br>
 B C 1 <br>
@@ -217,6 +221,8 @@ C 99 <br>
 E 7 <br>
 D 1 <br>
 G 0 <br>
+
+
 <hr>
 <h2>Sample Output</h2>
 <hr>
