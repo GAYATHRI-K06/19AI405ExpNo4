@@ -4,7 +4,6 @@
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
-
 ``````
 // A* Search Algorithm
 1.  Initialize the open list
@@ -47,9 +46,7 @@
   
     e) push q on the closed list
     end (while loop)
-
 ``````
-
 ## PROGRAM:
 
 ```
@@ -120,8 +117,6 @@ print('Path does not exist!')
 return None
 ```
 ```
-
-
 #define fuction to return neighbor and its distance
 #from the passed node
 def get_neighbors(v):
@@ -159,12 +154,8 @@ Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
 ```
-
 ## SAMPLE GRAPH I:
 ![image](https://github.com/22008686/19AI405ExpNo4/assets/118916413/25326942-3034-4607-8da1-eb110ae5752a)
-
-
-
 <hr>
 <h2>Sample Input</h2>
 <hr>
@@ -197,9 +188,6 @@ J 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'F', 'G', 'I', 'J']
-
-
-
 ## SAMPLE GRAPH II:
 ![image](https://github.com/22008686/19AI405ExpNo4/assets/118916413/f4e348fe-235e-4b57-8d62-024f97003ba6)
 
