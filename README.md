@@ -4,7 +4,12 @@
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
+
+
+
 ``````
+
+
 // A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
@@ -60,9 +65,10 @@ def aStarAlgo(start_node, stop_node):
     #distance of starting node from itself is zero
     g[start_node] = 0
 ```
+
 ```
-#start_node is root node i.e it has no parent nodes
-#so start_node is set to its own parent node
+# start_node is root node i.e it has no parent nodes
+# so start_node is set to its own parent node
 
 parents[start_node] = start_node
 while len(open_set) > 0:
@@ -116,6 +122,7 @@ while len(open_set) > 0:
 print('Path does not exist!')
 return None
 ```
+
 ```
 #define fuction to return neighbor and its distance
 #from the passed node
@@ -155,7 +162,10 @@ print(graph)
 aStarAlgo('S', 'G')
 ```
 ## SAMPLE GRAPH I:
+
 ![image](https://github.com/22008686/19AI405ExpNo4/assets/118916413/25326942-3034-4607-8da1-eb110ae5752a)
+
+
 <hr>
 <h2>Sample Input</h2>
 <hr>
